@@ -1,2 +1,2 @@
 
-* Live Link [unsplashphotoesearch](https://unsplashphotoesearch.netlify.app)
+* Live Link [unsplashphotosearch](https://unsplashphotosearch.netlify.app)
