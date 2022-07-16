@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.showcase {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase video {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46%;
+    height: 10%;
+    position: absolute;
+    object-fit: cover;
+} 
+
+.title {
+  background-color: #000;
+  font-size: 90px;
+  color: #fff;
+  mix-blend-mode: multiply;
+}
+
+/* ==============================FOR SEARCH BAR================================= */
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+  }
+  
+  .searchBox{
+    margin: 1rem 1rem 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.9rem;
+    background: white;
+    box-shadow: 0px 0px 5px #22222238, 5px 5px 5px #22222223;
+    border: none;
+    border-radius: 0.6rem;
+    outline: none;
+    transition: all 0.4s ease;
+  }
+
+  .searchBox:hover{
+    background: rgb(174, 172, 172);
+    color: #000;
+
+  }
+  
+  .searchButton{
+    margin: 1rem 0rem 1rem 1rem;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    background: #ffffff; 
+    border-radius: 0.6rem;
+    box-shadow: 0px 0px 5px #bab9b938, 5px 5px 5px #22222223;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .searchButton:hover{
+    background: #555;
+    color: #000;
+
+  }
+

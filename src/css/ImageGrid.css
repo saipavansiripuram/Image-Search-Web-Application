@@ -1,0 +1,51 @@
+h2,p,div{
+    color: #ffffff;
+    text-align: center;
+}
+
+.Typewriter{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.imageContainer{
+    margin-top: 1rem;
+}
+
+.imageContainer p{
+    color: #888888;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.imageGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 6rem;
+}
+.gridImages{
+    width: 120%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+.loadMoreBtn{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #ffffff; 
+    border-radius: 0.2rem;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .loadMoreBtn:hover{
+    background: #555555;
+    color: black;
+  }
